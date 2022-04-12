@@ -1,0 +1,142 @@
+body {
+  background-color: ;
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ruta img {
+  width:50%;
+  transition:transform 1000ms ease-in-out;
+}
+
+.ruta:hover img {
+  xtransform:scaleX(-100%);
+  xtransform:rotateZ(360deg);
+}
+
+@media screen and (min-width: 800px) { /* detta händer bara när sidan är STÖRRE än 800 pixlar */
+  .ruta {
+    position: absolute;
+  }
+  .ruta1 {
+    top: 20px;
+    left: 50px;
+    width: 40vw; /* vw = Viewport Width, vh = Viewport Height */
+  }
+
+
+  /*.ruta2 {
+  position: absolute;
+  top: 100px;
+  right: 500px;
+  background-color: ;
+  width: 100px;
+  height: 100px;
+}*/
+
+  .ruta2 {
+    top: 0vw;
+    left: 70vw;
+    width: 55vw;
+  }
+
+  .ruta3 {
+    top: 3vw;
+    left: 3vw;
+    width: 40vw;
+  }
+
+  .ruta4 {
+    top: 34vw;
+    left: 60vw;
+    width: 40vw;
+  }
+
+  .ruta5 {
+    top: 22vw;
+    left: 30vw;
+    width: 60vw;
+  }
+
+
+  .ruta6 {
+    top: 3vw;
+    left: 34vw;
+    width: 55vw;
+  }
+
+
+  .ruta8 {
+    top: 33vw;
+    left: 6vw;
+    width: 50vw;
+  }
+  
+    .ruta9 {
+    top: 30vw;
+    left: 36vw;
+    width: 35vw;
+  }
+
+   .ruta10 {
+     width:100%;
+     left: 25%;
+     top:28%;
+     
+  }
+  
+  
+  
+  
+  
+  
+  .webring {
+  background-color: blac;
+  position: fixed;
+  z-index: 1000000;
+  bottom: 0;
+  font-family: "courier new";
+  width: 50%;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8vw;
+  text-align: center;
+    left: 25%;
+}
+
+.webring a {
+  color: #ffb55e;
+  font-family: "courier new";
+  border-bottom: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webringarrow a {
+  color: black;
+  font-family: "courier new";
+  border-bottom: 0;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webringarrow, .webringinfo {
+  padding: 1.5vw;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+}
