@@ -108,6 +108,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   font-size: 0.8vw;
   text-align: center;
     left: 25%;
+     right:25%;
 }
 
 .webring a {
